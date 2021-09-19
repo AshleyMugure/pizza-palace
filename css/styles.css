@@ -92,7 +92,12 @@ section{
   z-index: 0;
   margin-top: 1rem;
 }
-
+.heading{
+  text-align: center;
+  font-size: 3.5rem;
+  padding: 1rem;
+  color: #790e0e;
+}
 
 
 
@@ -161,4 +166,18 @@ section{
     border: 2rem solid rgba(0, 0, 0, 0.1);
     border-left: 5rem solid red;
   }
+}
+.food .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.food .box-container .box{
+  flex: 1 1 30rem;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border: 1rem solid rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  border-radius: 5rem;
 }
