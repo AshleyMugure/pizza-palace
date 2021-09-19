@@ -111,6 +111,12 @@ a{
   justify-content: center;
   align-items: center;
 }
+.search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .search p{
   color: #ffff;
   font-size: 30px;
@@ -126,14 +132,14 @@ a{
   height: 35px;
   display: flex;
   justify-content: space-around;
-  text-align: center;
+  align-items: center;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
 }
 .text input[type=search]{
   border: none;
   background-color: transparent;
   color: #000000;
-  align-items: center;
+  text-align: center;
   outline: none;
 }
 .text button{
@@ -145,4 +151,5 @@ a{
   font-weight: bold;
   outline: none;
   border-radius: 0px 20px 20px 0px;
+  border-left: 1px solid black;
 }
