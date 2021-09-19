@@ -1,3 +1,6 @@
+:root{
+  --red:#ff3838;
+}
 *{
   background-image: url(..//images/background.jpg.jpg);
   background-size: cover;
@@ -11,4 +14,11 @@
   border: none;
   text-decoration: none;
   transition: all .2s linear;
+}
+*::selection{
+  background: var(--red);
+  color: #fff;
+}
+html{
+  
 }
