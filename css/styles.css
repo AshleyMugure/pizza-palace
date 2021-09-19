@@ -181,3 +181,29 @@ section{
   cursor: pointer;
   border-radius: 5rem;
 }
+.food .box-container .box .image{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: -100%; left: 0;
+}
+.food .box-container .box .content{
+  text-align: center;
+  background: #fff;
+  padding: 2rem;
+}
+.food .box-container .box .content img{
+  margin: 1.5rem 0;
+}
+.food .box-container .box .content h3{
+  font-size: 2.5rem;
+}
+.food .box-container .box .content p{
+  font-size: 1.6rem;
+  color: chocolate;
+  padding: 1rem 0;
+}
+.food .box-container .box:hover .image{
+  top: 0;
+}
