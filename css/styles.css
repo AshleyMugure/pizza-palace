@@ -51,3 +51,6 @@ header .navbar a{
   margin-left: 2rem;
   color: #fff;
 }
+header .navbar a:hover{
+  color: blue;
+}
