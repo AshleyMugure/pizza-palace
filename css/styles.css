@@ -64,7 +64,14 @@ header .navbar a:hover{
   padding: 5rem 1.5rem;
   display: none;
 }
-
+section{
+  padding: 2rem 9%;
+}
+.home{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
 
 
 
