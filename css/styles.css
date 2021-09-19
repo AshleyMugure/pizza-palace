@@ -53,7 +53,6 @@ a{
   color: #ffff;
   margin: 0px 10px;
 }
-/*
 .whats-new{
   display: flex;
   justify-content: left;
@@ -61,7 +60,6 @@ a{
   margin: 7% 0px 20px 0px;
   margin-bottom: none;
 }
-*/
 .content{
   display: flex;
   flex-direction: column;
@@ -79,19 +77,22 @@ a{
   background-size: cover;
   background-repeat: no-repeat;
 }
-.new h3{
+.new h2{
+  font-family: 'Courier New', Courier, monospace;
   padding-left: 170px;
   color: aqua;
 }
 .new p{
   color: #ffff;
-  line-height: 30px;
+  line-height: 20px;
   padding-left: 160px;
+  padding-bottom: 30PX;
   margin: 0px;
 }
 .new button{
   margin-left: 160px;
   width: 200px;
+  background-color: red;
 }
 .search, .order{
   width: 540px;
@@ -110,6 +111,7 @@ a{
 .search p{
   color: #fff;
   font-size: 30px;
+  padding-left: 30px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: bold;
   line-height: 0px;
