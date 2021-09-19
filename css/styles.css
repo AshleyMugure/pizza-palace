@@ -71,6 +71,26 @@ section{
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
+  min-height: 100;
+  align-items: center;
+  background-color: transparent;
+}
+.home .homecontent{
+  flex: 1 1 40rem;
+  padding-top: 16.5rem;
+  font-size: 30px;
+  color: black;
+}
+.btn{
+  display: inline-block;
+  border: 1rem solid var(--red);
+  background-color: #ff3838;
+  cursor: pointer;
+  border-radius: 3rem;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  margin-top: 1rem;
 }
 
 
