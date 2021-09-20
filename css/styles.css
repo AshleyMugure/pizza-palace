@@ -44,6 +44,9 @@ header .logo{
   font-weight: bold;
   color: #fff;
 }
+header .logo i{
+  size: 5rem;
+}
 header .logo img{
   padding-right: 5rem;
 }
@@ -54,6 +57,16 @@ header .navbar a{
 }
 header .navbar a:hover{
   color: blue;
+}
+header .icons i, a{
+  cursor: pointer;
+  margin-left: 5rem;
+  height: 4.5rem;
+  line-height: 4.5rem;
+  width: 4.5rem;
+  text-align: center;
+  font-size: 1.7rem;
+  border-radius: 50%;
 }
 #menu-bar{
   font-size: 3rem;
