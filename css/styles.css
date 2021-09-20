@@ -94,22 +94,15 @@ section{
   font-size: 30px;
   color: black;
 }
-.btn{
-  display: inline-block;
-  border: 1rem solid var(--red);
-  background-color: #ff3838;
-  cursor: pointer;
-  border-radius: 3rem;
-  position: relative;
-  overflow: hidden;
-  z-index: 0;
-  margin-top: 1rem;
-}
 .heading{
   text-align: center;
   font-size: 3.5rem;
   padding: 1rem;
   color: #790e0e;
+}
+.col-md-4.col-sm-12{
+  text-align: center;
+  size: 200px;
 }
 
 
