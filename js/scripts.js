@@ -1,7 +1,5 @@
-let menu = document.querySelector('#menu-bar');
-let navbar = document.querySelector('.navbar')
+$(document).ready(function() {
 
-menu.onclick = () =>{
-  menu.classList.toggle('bar');
+  $("table").hide();
   
-}
+})
