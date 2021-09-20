@@ -113,98 +113,62 @@
 
     <!------select section----------->
     <div class="row">
-      <div class="col-md-4 col-sm-12">
-        <h1 class="one">PIZZA SIZE</h1>
-        <select class="form-control size">
-          <option label="small" value="500">Small</option>
-          <option label="medium" value="700">Medium</option>
-          <option label="large" value="1000">Large</option>
-        </select>
-      </div>
+      <form action="">
+        <div class="col-md-4 col-sm-12">
+          <h1 class="one">PIZZA FLAVOR</h1>
+          <label for="select">Select Flavor</label>
+          <select class="form-control flavor">
+            <option label="boerwors" value="">Boerwors</option>
+            <option label="hawaiian" value="">Hawaiian</option>
+            <option label="prawns" value="">Garlic Butter Prawns</option>
+            <option label="pepperoni" value="">Pepperoni</option>
+            <option label="bbqchicken" value="">BBQ Chicken</option>
+            <option label="veggie" value="">Veggie</option>
+          </select>
+        </div>
 
-      <div class="col-md-4 col-sm-12">
-        <h1 class="one">PIZZA TOPPINGS</h1>
-        <select class="form-control toppings">
-          <option label="anchovies" value="100">Anchovies</option>
-          <option label="cheese" value="50">Extra Cheese</option>
-          <option label="pepperoni" value="70">Extra Pepperoni</option>
-        </select>
-      </div>
+        <div class="col-md-4 col-sm-12">
+          <h1 class="one">PIZZA SIZE</h1>
+          <label for="select">Select Pizza Size</label>
+          <select class="form-control size">
+            <option label="small" value="500">Small</option>
+            <option label="medium" value="700">Medium</option>
+            <option label="large" value="1000">Large</option>
+          </select>
+        </div>
 
-      <div class="col-md-4 col-sm-12">
-        <h1 class="one">PIZZA CRUST</h1>
-        <select class="form-control crust">
-          <option label="stuffed" value="500">Chicken Parm Stuffed Crust</option>
-          <option label="gluten-free" value="300">Gluten-Free Crust</option>
-          <option label="thin" value="100">Thin Crust</option>
-        </select>
-      </div>
+        <div class="col-md-4 col-sm-12">
+          <h1 class="one">PIZZA TOPPINGS</h1>
+          <label for="select">Select Toppings</label>
+          <select class="form-control toppings">
+            <option label="anchovies" value="100">Anchovies</option>
+            <option label="cheese" value="50">Extra Cheese</option>
+            <option label="pepperoni" value="70">Extra Pepperoni</option>
+          </select>
+        </div>
 
-      <br>
-      <div class="button">
-        <button class="btn btn-info order" type="submit">ORDER NOW</button>
-      </div>
+        <div class="col-md-4 col-sm-12">
+          <h1 class="one">PIZZA CRUST</h1>
+          <label for="select">Select Crust Size</label>
+          <select class="form-control crust">
+            <option label="stuffed" value="500">Chicken Parm Stuffed Crust</option>
+            <option label="gluten-free" value="300">Gluten-Free Crust</option>
+            <option label="thin" value="100">Thin Crust</option>
+          </select>
+        </div>
+
+        <br>
+        <div class="button">
+          <button id="btnorder" onclick="">ORDER NOW</button>
+        </div>
+
+      </form>
     </div>
     <!------select section----------->
 
     <!-------table------->
-    <table class="table container-fluid">
-      <thead>
-        <tr class="tablep">
-          <th scope="col">Order No.</th>
-          <th scope="col">Pizza Size</th>
-          <th scope="col">Toppings</th>
-          <th scope="col">Crust</th>
-          <th scope="col">Total</th>
-        </tr>
-      </thead>
-      <tbody id="pizza">
-        <tr>
-          <th scope="row">1</th>
-          <td id="size"></td>
-          <td id="toppings"></td>
-          <td id="crust"></td>
-          <td id="total"></td>
-        </tr>
-      </tbody>
-    </table>
-    <!-------table------->
-
-    <div class="additional-buttons">
-      <div class="text-center">
-        <button class="btn btn-info add-pizza" type="submit">Add Another</button>
-        <div class="additional-info">
-          <h3>The total is: <span></span></h3>
-          <h5>Would you like delivery for an additional <em>200</em>?</h5>
-          <h4>Your order has been received! We are dispatching our rider to <span></span></h4>
-          <div class="location text-center">
-            <input type="text" size="30" placeholder="Where do you live?" required />
-            <button class="btn btn-info complete" type="submit">Complete</button>
-          </div>
-        </div>
-        <br>
-        <button class="btn btn-info yes" type="submit">Yes</button>
-        <button class="btn btn-info no" type="submit">No</button>
-      </div>
-      <div class="text-right">
-        <button class="btn btn-info check-out" type="submit">Checkout</button>
-      </div>
-    </div>
-
-    <div class="text-center">
-      <address id="contact">
-        <strong>A Slice Of Italy Pizzeria</strong><br>
-        Buruburu, Mumias Road<br>
-        Nairobi, 00200-Makadara<br>
-      </address>
-
-      <address>
-        <strong>Customer Care</strong><br>
-        <a href="mailto:ashleyzack@gmail.com">ashleyzack247@gmail.com</a>
-      </address>
-    </div>
-  </div>
-
+    
+    
     
     <script src="js/scripts.js" async defer></script>
     <script src="https://use.fontawesome.com/45c017aff6.js"></script>
