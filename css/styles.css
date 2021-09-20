@@ -103,7 +103,17 @@ section{
 .col-md-4.col-sm-12{
   text-align: center;
   size: 200px;
+  flex: 1 1 40rem;
 }
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(65, 43, 43);
+  padding: 2rem 9%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
 
 
 
